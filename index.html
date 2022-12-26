@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layouts</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="main-header">
+        <h1>The Deep Learning Things!!</h1>
+        <nav>
+          <a href="./blog.html">Blog</a>
+          <a href="./challanges.html">Challenges</a>
+          <a href="./flexbox.html">FlexBox</a>
+          <a href="./css-grid.html">CSS Grid</a>
+        </nav>
+        <!-- <div class="clear"></div> -->
+      </header>
+      <!-- <div class="row"> -->
+      <article>
+        <header class="post-header">
+          <h2>The Basics of Deep Learning</h2>
+          <div class="image-author">
+            <img
+              class="author-image"
+              src="./img/andrew-ng.webp"
+              alt="Picture of the Author"
+              width="50"
+              height="50"
+            />
+            <p class="author">
+              Posted by <strong>Andrew Ng </strong> on Monday, June 21st 2021
+            </p>
+          </div>
+          <img
+            class="post-image"
+            src="./img/td-deep-learning.webp"
+            alt="Image of some code"
+            width="500"
+            height="200"
+          />
+        </header>
+        <p>
+          <B>What is Deep Learning?</B>
+          <p>A Technology and fuel for the future of AI.</p>
+        </p>
+        <p>
+          In this post, let's focus on deep-learning. We will learn what Deep Learning has the newer capablities and how it's diffrent
+          from machine learning despite being its subset.
+        </p>
+        <h3>A breif Note: </h3>
+        <p>
+          Deep learning is a subset of machine learning, which is essentially a neural network with three or more layers. These neural networks attempt to simulate the behavior of the human brain—albeit far from matching its ability—allowing it to “learn” from large amounts of data.
+        </p>
+       
+        <h4>
+          Deep Learning vs Machine Learning.
+        </h4>
+        <p>
+            While both technologies use data for feature learning, a significant differentiator between ML and deep learning is the latter’s ability to scale with data. ML algorithms tend to plateau in performance after training with large data sets and then diminishing returns kick in. On the other hand, deep learning models perform better as training datasets increase in volume.
+        </p>
+      </article>
+      <aside>
+        <h4>Related Posts</h4>
+        <ul class="related">
+          <li class="related-post">
+            <img
+              src="img/related-1.jpg"
+              alt="Course on WEb Development Image"
+              width="75"
+              height="75"
+            />
+            <div>
+              <a class="related-link" href="#">How to Learn Web Development</a>
+              <p class="related-author">by Jonas Schmedtmann</p>
+            </div>
+          </li>
+          <li class="related-post">
+            <img src="img/related-2.jpg" alt="course2" width="75" height="75" />
+            <div>
+              <a class="related-link" href="#">The Unknown Powers of CSS</a>
+              <p class="related-author">by Jim Dillon</p>
+            </div>
+          </li>
+          <li class="related-post">
+            <img src="img/related-3.jpg" alt="course3" width="75" height="75" />
+            <div>
+              <a class="related-link" href="#">Why JavaScript is Awesome</a>
+              <p class="related-author">by Matilda</p>
+            </div>
+          </li>
+        </ul>
+      </aside>
+      <!-- </div> -->
+      <footer>
+        <p>Copyright &copy; 2022 by Taaha</p>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

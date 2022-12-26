@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+.container
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-top: 1px solid black;
+    box-sizing: border-box;
+    margin: 12%;
+    background-color: rgb(224, 230, 231);
+    border-bottom: 3px solid black;
+    border-radius: 12px;
+    padding: 7px;
+    height: 39vh;
+}
+.container .product
+{
+    padding: 3px;
+    text-align: center;
+    clear: left;
+}
+img
+{
+    width: 25%;
+    box-shadow: 7ch;
+    background-color: aliceblue;
+    padding: 3px;
+    border-radius: 5px;
+}
+.img .specs
+{
+    clear: both;
+    float: right;
+    margin-left: 34px;
+    padding: 3px;
+}
+.img .specs ul li
+{
+    margin-top: 2.5px;
+}
+.img .price
+{
+    border: 1px;
+    clear: auto;
+    float: right;
+    margin-right: 132px;
+    margin-top: 28px;   
+}
+.img .price .p1
+{
+    text-decoration: line-through;
+    color: red;
+}
+.img .price .p2
+{
+    text-decoration: underline;
+    color: rgb(0, 100, 25);
+}
+.price .btn
+{
+    margin: 15px;
+    background-color: rgb(15, 122, 81);
+    padding: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px ;
+    
+}
